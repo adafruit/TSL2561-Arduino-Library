@@ -30,9 +30,9 @@ void setup(void) {
   
   // Changing the integration time gives you a longer time over which to sense light
   // longer timelines are slower, but are good in very low light situtations!
-  //tsl.setTiming(TSL2561_INTEGRATIONTIME_13MS);  // shortest integration time (bright light)
+  tsl.setTiming(TSL2561_INTEGRATIONTIME_13MS);  // shortest integration time (bright light)
   //tsl.setTiming(TSL2561_INTEGRATIONTIME_101MS);  // shortest integration time (medium light)
-  tsl.setTiming(TSL2561_INTEGRATIONTIME_402MS);  // shortest integration time (dim light)
+  //tsl.setTiming(TSL2561_INTEGRATIONTIME_402MS);  // shortest integration time (dim light)
   
   // Now we're ready to get readings!
 }
