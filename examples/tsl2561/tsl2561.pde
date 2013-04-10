@@ -48,7 +48,7 @@ void loop(void) {
   Serial.println(x, DEC);
 
   // More advanced data read example. Read 32 bits with top 16 bits IR, bottom 16 bits full spectrum
-  // That way you can do whatever math and comparions you want!
+  // That way you can do whatever math and comparisons you want!
   uint32_t lum = tsl.getFullLuminosity();
   uint16_t ir, full;
   ir = lum >> 16;
