@@ -1,4 +1,3 @@
-
 /**************************************************************************/
 /*! 
     @file     tsl2561.c
@@ -224,7 +223,7 @@ uint32_t TSL2561::getFullLuminosity (void)
       delay(102);
       break;
     default:
-      delay(400);
+      delay(403);
       break;
   }
 
