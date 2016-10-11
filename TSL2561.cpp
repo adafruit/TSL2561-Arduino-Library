@@ -34,8 +34,12 @@
 */
 /**************************************************************************/
 
-#include <avr/pgmspace.h>
-#include <util/delay.h>
+#if defined ( ESP8266 )
+  #include <pgmspace.h>
+#else
+  #include <avr/pgmspace.h>
+  #include <util/delay.h>
+#endif
 #include <stdlib.h>
 
 #include "TSL2561.h"
