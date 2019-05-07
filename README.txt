@@ -1,3 +1,8 @@
+**DEPRECATED**
+Please use new version of library:
+https://github.com/adafruit/Adafruit_TSL2561
+
+---------------------------
 This is an Arduino library for the TSL2561 digital luminosity (light) sensors. 
 
 Pick one up at http://www.adafruit.com/products/439
